@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.flex{
+    display: flex;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header .container{
+    justify-content: space-between;
+}
+
+
+.header__logo{
+    max-width: 185px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 63px;
+    height: 100%;
+}
+nav ul li{
+    list-style: none;
+}  
+nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.header_icons{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    height: 41px;
+}
+.header_icons img{
+    max-width: 28px;
+}
+
+footer{
+    padding-top: 48px;
+    padding-bottom: 38px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content__left{
+    flex-basis: 40%;
+    /* max-width: 100%; */
+}
+.footer__content__right{
+    display: flex;
+    flex-basis: 60%;
+    /* max-width: 100%; */
+}
+
+.fcr-left{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+
+}
+.fcr-right{
+    flex-basis: 50%;
+    padding-left: 72px;
+}
+
+.fcr__title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 55px;
+}
+
+.fcr__content .item{
+    margin-bottom: 46px;
+    font-weight: 500;
+}
+
+.footer__logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 55px;
+}
+.footer__address{
+    color: #9F9F9F;
+    max-width: 285px;
+}
+.form-emailSub input{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid;
+    font-size: 14px;
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+.form-emailSub button{
+    border: 0;
+    border-bottom: 2px solid;
+    font-weight: 500;
+    background: #fff;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+
+.form-emailSub button:hover{
+    /* background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px; */
+    box-shadow: 0px 17px 9px -12px rgba(0,0,0,0.3);
+}
+
+.copyright{
+    padding-top: 35px;
+    border-top: 1px solid;
+}
